@@ -4245,10 +4245,10 @@ window.setInterval(function(){
     }   
     
 // Modded WireBuyer
-    if (wireCost < 0.9*wireBasePrice) {
+    wireDeal = 0.9*wireBasePrice
+    if (wireCost < wireDeal) {
         buyWire();
     }
-    
     
 // First, Explore
     
